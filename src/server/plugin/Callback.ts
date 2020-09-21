@@ -43,9 +43,7 @@ export class Callback {
       const gitlabOauth = await this.gitlab.requestAccessToken(code, this.clientId, this.clientSecret, callbackUrl)
       const gitlabUser = await this.gitlab.requestUser(gitlabOauth.access_token)
 
-      console.log(gitlabUser)
-
-      if (gitlabUser.groups.includes(this.requiredGroup)) {
+      if (this.requiredGroup == "*" || gitlabUser.groups.includes(this.requiredGroup)) {
         await this.grantAccess(res, gitlabOauth, gitlabUser)
       } else {
         await this.denyAccess(res)
