@@ -1,6 +1,6 @@
 {
   "name": "@paysera/verdaccio-gitlab-oauth",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "keywords": [
     "gitlab",
     "login",
@@ -11,9 +11,8 @@
     "registry",
     "verdaccio"
   ],
-  "homepage": "https://github.com/bizneo/verdaccio-gitlab-oauth/blob/master/README.md",
-  "bugs": "https://github.com/bizneo/verdaccio-gitlab-oauth/issues",
-  "repository": "github:bizneo/verdaccio-gitlab-oauth",
+  "homepage": "https://github.com/paysera/verdaccio-gitlab-oauth",
+  "repository": "github:paysera/verdaccio-gitlab-oauth",
   "license": "MIT",
   "author": "Oscar de Arriba",
   "files": [
