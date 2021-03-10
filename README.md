@@ -2,13 +2,13 @@
 
 A GitLab OAuth Plugin for [Verdaccio](https://www.verdaccio.org)
 
-<a href="https://www.npmjs.com/package/verdaccio-gitlab-oauth">
-  <img alt="Version" src="https://flat.badgen.net/npm/v/verdaccio-gitlab-oauth?icon=npm">
+<a href="https://www.npmjs.com/package/verdaccio-paysera-gitlab-oauth">
+  <img alt="Version" src="https://flat.badgen.net/npm/v/verdaccio-paysera-gitlab-oauth?icon=npm">
 </a>
-<a href="https://raw.githubusercontent.com/bizneo/verdaccio-gitlab-oauth/master/LICENSE">
-  <img alt="License" src="https://flat.badgen.net/github/license/bizneo/verdaccio-gitlab-oauth?icon=github">
+<a href="https://raw.githubusercontent.com/bizneo/verdaccio-paysera-gitlab-oauth/master/LICENSE">
+  <img alt="License" src="https://flat.badgen.net/github/license/bizneo/verdaccio-paysera-gitlab-oauth?icon=github">
 </a>
-<a href="https://github.com/bizneo/verdaccio-gitlab-oauth/issues/new/choose">
+<a href="https://github.com/bizneo/verdaccio-paysera-gitlab-oauth/issues/new/choose">
   <img alt="Issues" src="https://flat.badgen.net/badge/github/create issue/pink?icon=github">
 </a>
 
@@ -29,7 +29,7 @@ In case you need CLI support for automation purposes, the plugin is also compati
 ### Install
 
 ```
-$ npm install verdaccio-gitlab-oauth
+$ npm install verdaccio-paysera-gitlab-oauth
 ```
 
 ### GitLab Config
@@ -44,11 +44,11 @@ Merge the below options with your existing Verdaccio config:
 
 ```yml
 middlewares:
-  gitlab-oauth:
+  paysera-gitlab-oauth:
     enabled: true
 
 auth:
-  gitlab-oauth:
+  paysera-gitlab-oauth:
     group: GITLAB_GROUP_PATH
     client-id: GITLAB_CLIENT_ID
     client-secret: GITLAB_CLIENT_SECRET
