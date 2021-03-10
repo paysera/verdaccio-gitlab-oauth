@@ -1,5 +1,5 @@
 {
-  "name": "@paysera/verdaccio-gitlab-oauth",
+  "name": "verdaccio-paysera-gitlab-oauth",
   "version": "1.0.6",
   "keywords": [
     "gitlab",
